@@ -157,8 +157,27 @@
 
         
     // }
+    #heading{
+        margin-bottom: 8%;
+        padding: 8%;
+        h1{
+            font-size: 1.5em;
+            padding-bottom: 3%;
+            
+        }
+        h4{
+            font-size: 1em;
+        }
+    }
+
+    #page #facts-div{
+        width: 85vw;
+    }
+
+
     #page #form-and-btns{
         width: 85vw;
+
 
         #datepicker-div{
             margin-top: 1em;
