@@ -150,4 +150,26 @@
   list-style-type: none;
   margin: 1% 0;
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #page #form-and-btns {
+    width: 85vw;
+  }
+  #page #form-and-btns #datepicker-div {
+    margin-top: 1em;
+  }
+  #page #form-and-btns #datepicker-div input[type=date] {
+    width: 78vw;
+  }
+  #page #form-and-btns #btns #first-row {
+    margin: 1em 0.5em;
+  }
+  #page #form-and-btns #btns #first-row .button {
+    padding: 1% 0;
+  }
+  #page #form-and-btns #btns #historical-btn {
+    margin: 0.25em 0.5em;
+  }
+}
 /*# sourceMappingURL=style.css.map */
